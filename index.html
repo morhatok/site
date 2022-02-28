@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+ <html lang="ru">
+ <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  	<link rel="stylesheet" href="style.css">
+  	<title>Home Page</title>
+	</head>
+	<body>
+		<header>
+			<div class="header__cart">
+				<div class="header__cart cart">Корзина: 
+					<span class="cart__quantity">0</span><span> товаров.</span>
+					<div class="cart-content__fullPrice">
+						<span>Стоимость товаров:</span>
+						<span class="fullPrice">0</span><span>р.</span>
+						<span>Доставка:</span>
+						<span class="delivery">250р</span>
+					</div>
+				</div>
+
+				<div class="cart__content">
+				</div>
+				
+			</div>
+		</header>
+<div class="mainCont" id="products-container">
+	<article class="product">
+		<div class="product__card">
+			<div class="product__Image"><img class="prodImg" src="product (1).png"></div>
+			<h3 class="product__title">Eagle</h3>
+			<div class="product__price">
+				<span>Цена:</span>
+				<span class="productPriceSpan">105</span><span>р.</span>
+			</div>
+			<div class="product__wrapper">
+				<button class="wrapperPlus" data-action="plus">+1</button>
+				<div class="productCounter" data-counter>1</div>
+				<button class="wrapperMinus" data-action="minus">-1</button>
+			</div>
+			<button class="product__btn" data-action="addProduct">В корзину</button>
+		</div>	
+	</article>
+</div>
+		<script src="render.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

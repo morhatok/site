@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	//border: solid;
+}
+img {
+	width: 150px;
+	height: 150px;
+}
+header {
+	position: relative;
+	z-index: 100;
+}
+ li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+.product{
+	display: flex;
+	justify-content: center;
+}
+.product__wrapper{
+	display: flex;
+	justify-content: space-between;
+	background-color: #ccc;
+}
+.cart{
+	margin: 5px 5px 5px 5px;
+	/*Что бы рядом сделать cart__content*/
+	position: relative;
+	transition: 0.3s;
+	cursor: default;
+}
+/*.header__cart:hover .cart__content{
+	opacity: 1;
+	visibility: visible;
+	transition: 0.3s;
+}*/
+.cart:hover{
+	background-color: #ccc;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.cart__content{
+	/*Что бы приклеить к cart*/
+	position: absolute;
+	background-color: #ccc;
+	cursor: default;
+	/*opacity: 0;
+	visibility: hidden;
+	transition: 0.8s;*/
+}
+.cart-content-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cart-content-item img{
+	width: 50px;
+	height: 50px;
+}
+.cart-product__info{
+	margin: 5px 5px 5px 5px;
+	text-align: center;
+}
+.mainCont{
+margin: 0 auto;
+width: 800px;
+display: flex;
+justify-content: center;
+}
